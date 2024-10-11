@@ -9,3 +9,15 @@ variable "octobertwelve"{
 output "octobertogether"{
    value="${var.octobereleven}+${var.octobertwelve}"
 }
+###################################################3
+variable "octoberelevensecondexample1"{
+    type=number
+    default=11
+}
+variable "octoberelevensecondexample2"{
+    type=number
+    default=12
+}
+output "sumofoctoberdates"{
+  value="${var.octoberelevensecondexample1}+${var.octoberelevensecondexample2}"
+}
