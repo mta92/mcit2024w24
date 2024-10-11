@@ -7,6 +7,5 @@ variable "octobertwelve"{
     default="12"
 }
 output "octobertogether"{
-   type =string
    value="${var.octobereleven}+${var.octobertwelve}"
 }
