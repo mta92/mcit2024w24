@@ -24,4 +24,12 @@ output "sumofoctoberdates"{
 output "sumofoctoberdatesreal"{
   value=var.octoberelevensecondexample1+var.octoberelevensecondexample2
 }
+###########################################################
+variable "mcit_list"{
+    type =list(string)
+    default=["one","two","three"]
+}
 
+output "mcit_list_output"{
+    value=var.mcit_list
+}
