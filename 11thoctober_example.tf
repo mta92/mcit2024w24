@@ -21,3 +21,7 @@ variable "octoberelevensecondexample2"{
 output "sumofoctoberdates"{
   value="${var.octoberelevensecondexample1}+${var.octoberelevensecondexample2}"
 }
+output "sumofoctoberdatesreal"{
+  value=var.octoberelevensecondexample1+var.octoberelevensecondexample2
+}
+
