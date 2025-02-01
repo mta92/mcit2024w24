@@ -1,12 +1,12 @@
-resource "azurerm_resource_group" "mcit420zz5um" {
-  name     = "mcit_resource_group_w24"
+resource "azurerm_resource_group" "mcit420zz5um_" {
+  name     = "mcit_resource_group_w24_"
   location = "canadacentral"
 }
-resource "azurerm_resource_group" "mcit420zz5um2" {
-  name     = "mcit_resource_group_w24_2"
+resource "azurerm_resource_group" "mcit420zz5um2_" {
+  name     = "mcit_resource_group_w24_3_"
   location = "canadacentral"
 }
-resource "azurerm_resource_group" "mcit420zz5um3" {
-  name     = "mcit_resource_group_w24_3"
+resource "azurerm_resource_group" "mcit420zz5um3_" {
+  name     = "mcit_resource_group_w24_3_"
   location = "canadacentral"
 }
