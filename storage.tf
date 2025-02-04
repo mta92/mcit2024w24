@@ -46,11 +46,11 @@ resource "azurerm_linux_virtual_machine" "rgmta" {
 
   admin_username = "adminuser" # Replace with a strong username
 
-  # SSH Key Authentication (Recommended):
+/*  # SSH Key Authentication (Recommended):
   admin_ssh_public_keys {
     username = "adminuser" # Same as admin_username
     key_data = file("~/.ssh/id_rsa.pub") # Replace with your public SSH key file path
-  }
+  }*/
 
   os_disk {
     name                 = "osdisk1-rgmta-linux-vm"
