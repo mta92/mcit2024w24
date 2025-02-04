@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "mcit420zz5um_" {
+resource "azurerm_resource_group" "rgmta" {
   name     = "mcit_resource_group_w24_"
   location = "canadacentral"
 }
