@@ -1,5 +1,5 @@
 # Create a virtual network
-resource "azurerm_virtual_network" "rgmta" {
+/*resource "azurerm_virtual_network" "rgmta" {
   name                = "vnet-rgmta-linux-vm"
   resource_group_name = azurerm_resource_group.rgmta.name
   location            = azurerm_resource_group.rgmta.location
@@ -72,3 +72,4 @@ resource "azurerm_linux_virtual_machine" "rgmta" {
 output "public_ip_address" {
   value = azurerm_public_ip.rgmta.ip_address
 }
+*/
