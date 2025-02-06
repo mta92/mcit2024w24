@@ -21,5 +21,5 @@ resource "azurerm_web_application_firewall_policy" "waf_policy" {
 }
 # Output the WAF policy ID (for reference)
 output "waf_policy_id" {
-  value = azurerm_web_application_firewall_policy.rgmta.id
+  value = azurerm_web_application_firewall_policy.waf_policy.id
 }
