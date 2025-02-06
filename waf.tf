@@ -19,3 +19,7 @@ resource "azurerm_web_application_firewall_policy" "rgmta" {
   }
 
 }
+# Output the WAF policy ID (for reference)
+output "waf_policy_id" {
+  value = azurerm_web_application_firewall_policy.rgmta.id
+}
