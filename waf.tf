@@ -11,10 +11,4 @@ resource "azurerm_web_application_firewall_policy" "rgmta" {
     request_body_check   = true # Example setting
     file_upload_limit_mb = 100  # Example setting
   }
-
-  # Add managed rule sets (required) -  Use the appropriate rule set type/version
-  managed_rule_set {
-    type    = "OWASP"
-    version = "3.2"  # Or a compatible version. Ensure this matches below
-  }
 }
