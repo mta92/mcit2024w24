@@ -1,4 +1,4 @@
-# Create a Storage Account (required for Function App)
+/*# Create a Storage Account (required for Function App)
 resource "azurerm_storage_account" "st" {
   name                     = "tatsamcitstorage"
   resource_group_name      = azurerm_resource_group.rg.name
@@ -56,3 +56,4 @@ resource "azurerm_app_service_plan" "asp" {
 output "function_app_url" {
   value = azurerm_function_app.func.default_site_hostname
 }
+*/
