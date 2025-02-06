@@ -1,4 +1,4 @@
-# Create the WAF Policy
+/*# Create the WAF Policy
 resource "azurerm_web_application_firewall_policy" "waf_policy" {
   name                = "tatsa"  # The name you specified
   resource_group_name = azurerm_resource_group.rgmta.name
@@ -22,4 +22,4 @@ resource "azurerm_web_application_firewall_policy" "waf_policy" {
 # Output the WAF policy ID (for reference)
 output "waf_policy_id" {
   value = azurerm_web_application_firewall_policy.waf_policy.id
-}
+}*/
