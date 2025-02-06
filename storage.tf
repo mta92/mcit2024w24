@@ -71,5 +71,4 @@ resource "azurerm_linux_virtual_machine" "rgmta" {
 # Output the public IP address (if you created one)
 output "public_ip_address" {
   value = azurerm_public_ip.rgmta.ip_address
-}
-*/
+} */
